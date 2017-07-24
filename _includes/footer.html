@@ -2,21 +2,10 @@
 
   <div class="wrapper">
 
-    <h3 class="footer-heading">{{ site.title }}</h3>
+    <h4 class="footer-heading">{{ site.title }}</h4>
 
-    <div class="site-navigation">
 
-      <p><strong>Site Map</strong></p>
-      <ul class="pages">
-        {% for page in site.pages %}
-        {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-    <div class="site-contact">
+    <!-- <div class="site-contact">
 
       <p><strong>Contact</strong></p>
       <ul class="social-media-list">
@@ -39,15 +28,62 @@
         {% endfor %}
 
       </ul>
+    </div> -->
+
+    <div class="site-contact">
+      <p><strong>MapleLegends（L服）</strong></p>
+      <ul class="social-media-list">
+        <li>
+            <i class="fa fa-dribbble"></i>
+            <a href="https://maplelegends.com" target="_blank">
+            <span class="username">https://maplelegends.com</span>
+            </a>
+        </li>
+
+        <li>
+            <i class="fa fa-qq"></i>
+            <a href="//shang.qq.com/wpa/qunwpa?idkey=eb722445d5d1da2ae67f5306d151db2968997779883f5c7a5e4118100320c8fd" target="_blank">
+            <span class="username">575708249</span>
+            <span class="username"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png"></span>
+            </a>
+        </li>
+
+
+      </ul>
     </div>
 
-    <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
+    <div class="site-contact">
+      <p><strong>MapleRoyals（R服）</strong></p>
+      <ul class="social-media-list">
+        <li>
+            <i class="fa fa-dribbble"></i>
+            <a href="https://mapleroyals.com/" target="_blank">
+            <span class="username">https://mapleroyals.com/</span>
+            </a>
+        </li>
+
+        <li>
+            <i class="fa fa-qq"></i>
+            <a href="//shang.qq.com/wpa/qunwpa?idkey=eb722445d5d1da2ae67f5306d151db2968997779883f5c7a5e4118100320c8fd" target="_blank">
+            <span class="username">179963096</span>
+            <span class="username"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png"</span>
+            </a>
+        </li>
+
+
+      </ul>
     </div>
 
-  </div>
+    
+    <div class="site-navigation">
+      <a href="baidu.com" target="_blank"><p><strong>我该玩哪个？</strong></p></a>
+      <ul class="pages">
+          <li class="nav-link"><a href="/posts/">分类</a>
+          <li class="nav-link"><a href="/">首页</a>
+      </ul>
+    </div>
 
+  </div> 
 </footer>
 
 <!-- Scripts -->
