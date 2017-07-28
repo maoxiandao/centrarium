@@ -4,7 +4,7 @@ title:  "L服特点"
 date:   2017-07-25 16:51:59
 author: 桔子
 categories: MapleLegends
-tags: features
+tags: feature
 # cover:  "/assets/instacode.png"
 ---
 
