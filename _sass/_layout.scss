@@ -76,7 +76,7 @@ pre code.hljs {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
 		background-position: 0% 0%;
-		background-size: cover;
+		background-size: contain;
 		.title {
 			font-size: modular-scale(6);
 		}
