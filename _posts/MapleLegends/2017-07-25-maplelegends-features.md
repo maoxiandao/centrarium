@@ -5,7 +5,7 @@ date:   2017-07-25 16:51:59
 author: 桔子
 categories: MapleLegends
 tags: feature
-# cover:  "/assets/instacode.png"
+cover:  "/assets/pics/maplelegends-features/cover.png"
 ---
 
 MapleLegends简称L服，是大巨变前的怀旧服，所有设定都是以怀旧为宗旨，因此还原度非常高，让你仿佛回到了10年前玩的那个冒险岛。该服是国际服的062版本，打怪是2倍经验，做任务是3倍经验，掉率是1倍，于2014年8月开始测试，2015年3月公测，目前已经开服近3年，真心推荐给大家一起玩。客户端语言是英文，暂时没有汉化，但对于熟悉冒险岛的你游戏的操作应该没有问题。服务器在美国，但是不需要vpn即可注册、登陆体验，延迟大概在100-200，基本满足冒险条件，如果追求更佳的游戏体验，可以购买VPN。
