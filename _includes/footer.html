@@ -5,33 +5,24 @@
     <h4 class="footer-heading">{{ site.title }}</h4>
 
 
-    <!-- <div class="site-contact">
-
-      <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
-        <li>
-          <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
-          </a>
-        </li>
-
-        {% for social in site.social %}
-          {% if social.url != null %}
-          <li>
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-
+    <div class="site-navigation">
+	    <p><strong>导航</strong></p>
+      <ul class="pages">
+          <li class="nav-link"><a href="/">首页</a>
+          <li class="nav-link"><a href="/posts/">分类</a>
       </ul>
-    </div> -->
+    </div>
 
     <div class="site-contact">
-      <p><strong>MapleLegends（L服）</strong></p>
+	    <p><strong>推荐阅读</strong></p>
+	    <ul class="pages">
+	      <li class="nav-link"><a href="/guide/2017/07/25/maplelegends-features.html">L服特点</a>
+	      <!-- <li class="nav-link"><a href="/posts/">分类查看</a> -->
+        </ul>
+	</div>
+
+    <div class="site-contact">
+      <p><strong>MapleLegends</strong></p>
       <ul class="social-media-list">
         <li>
             <i class="fa fa-dribbble"></i>
@@ -52,36 +43,7 @@
       </ul>
     </div>
 
-    <div class="site-contact">
-      <p><strong>MapleRoyals（R服）</strong></p>
-      <ul class="social-media-list">
-        <li>
-            <i class="fa fa-dribbble"></i>
-            <a href="https://mapleroyals.com/" target="_blank">
-            <span class="username">https://mapleroyals.com/</span>
-            </a>
-        </li>
-
-        <li>
-            <i class="fa fa-qq"></i>
-            <a href="//shang.qq.com/wpa/qunwpa?idkey=eb722445d5d1da2ae67f5306d151db2968997779883f5c7a5e4118100320c8fd" target="_blank">
-            <span class="username">179963096</span>
-            <span class="username"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png"</span>
-            </a>
-        </li>
-
-
-      </ul>
-    </div>
-
     
-    <div class="site-navigation">
-      <a href="/common/2017/07/28/difference-between-l-and-r.html" target="_blank"><p><strong>我该玩哪个？</strong></p></a>
-      <ul class="pages">
-          <li class="nav-link"><a href="/posts/">分类</a>
-          <li class="nav-link"><a href="/">首页</a>
-      </ul>
-    </div>
 
   </div> 
 </footer>

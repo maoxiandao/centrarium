@@ -3,7 +3,7 @@ layout: post
 title:  "L服特点"
 date:   2017-07-25 16:51:59
 author: 桔子
-categories: MapleLegends
+categories: guide
 tags: feature
 cover:  "https://i.loli.net/2017/07/29/597c373fde175.png"
 ---
