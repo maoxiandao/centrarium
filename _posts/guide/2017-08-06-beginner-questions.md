@@ -11,7 +11,7 @@ tags: questions
 # 注册篇
 Q：如何注册？
 
-A：`参见[这篇](#)教程`
+A：`进入官网https://maplelegends.com/register，依次填写用户名、密码、确认密码、email、生日即可`
 
 # 登陆篇
 
